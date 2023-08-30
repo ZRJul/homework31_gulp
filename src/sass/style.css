@@ -1,0 +1,67 @@
+body {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.one {
+  display: flex;
+  justify-content: space-around;
+}
+.one ul {
+  list-style: none;
+  padding: 0;
+}
+.one ul li {
+  margin-bottom: 5px;
+}
+.one .categories {
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+.one .products {
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+.one .product-info {
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+.one .product-info h5 {
+  margin: 0;
+}
+.one .product-info p {
+  margin: 10px;
+}
+.one button {
+  display: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: azure;
+  margin: 0 auto;
+}
+
+.two {
+  text-align: center;
+}
+.two #orderForm {
+  display: none;
+}
+.two form div {
+  margin-bottom: 15px;
+}
+.two .field_comment {
+  display: flex;
+  justify-content: center;
+}
+
+#orderConfirmation {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
